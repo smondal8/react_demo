@@ -1,7 +1,8 @@
 import {React} from "react";
 
-const HelloSuperHeroes = (props) => {
-    return <div> Helllo {props.name} AKA {props.realName}</div>
+const HelloSuperHeroes = ({name,realName}) => {
+    return (
+    <div> Helllo {name} AKA {realName}</div> )
 }
 
 export default HelloSuperHeroes;
